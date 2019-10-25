@@ -36,21 +36,36 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return FirstFragment.newInstance("FirstFragment, Instance 1");
                 case 1:
-                    return SecondFragment.newInstance("SecondFragment, Instance 1");
+                    return SecondFragment.newInstance("SecondFragment, Instance 2");
                 case 2:
-                    return ThirdFragment.newInstance("ThirdFragment, Instance 1");
-                case 3:
-                    return ThirdFragment.newInstance("ThirdFragment, Instance 2");
-                case 4:
                     return ThirdFragment.newInstance("ThirdFragment, Instance 3");
+                case 3:
+                    return FourthFragment.newInstance("FourthFragment, Instance 4");
+                case 4:
+                    return FifthFragment.newInstance("FifthFragment, Instance 5");
+                case 5:
+                    return SixthFragment.newInstance("SixthFragment, Instance 6");
+                case 6:
+                    return SeventhFragment.newInstance("SeventhFragment, Instance 7");
+                case 7:
+                    return EigthFragment.newInstance("EigthFragment, Instance 8");
+                case 8:
+                    return NinthFragment.newInstance("NinethFragment, Instance 9");
+                case 9:
+                    return TenthFragment.newInstance("TenthFragment, Instance 10");
+                case 10:
+                    return EleventhFragment.newInstance("EleventhFragment, Instance 11");
+                case 11:
+                    return TwelvethFragment.newInstance("TwelevethFragment, Instance 12");
+
                 default:
-                    return ThirdFragment.newInstance("ThirdFragment, Default");
+                    return FirstFragment.newInstance("FirstFragment, Default");
             }
         }
 
         @Override
         public int getCount() {
-            return 5;
+            return 13;
         }
     }
 }

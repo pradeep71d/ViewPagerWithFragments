@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/t2"
-        android:text="25 January 2019"
+        android:text="25 January 2020 "
         android:textAlignment="center"
         android:layout_marginTop="70dp"
         android:textStyle="bold"
